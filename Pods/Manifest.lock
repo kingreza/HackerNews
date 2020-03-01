@@ -1,0 +1,64 @@
+PODS:
+  - BlueprintLists (0.1.1):
+    - BlueprintUI
+    - Listable
+  - BlueprintUI (0.6.0)
+  - BlueprintUICommonControls (0.6.0):
+    - BlueprintUI
+  - Listable (1.0.0.LOCAL)
+  - ReactiveSwift (6.0.0)
+  - Workflow (0.25.0):
+    - ReactiveSwift (~> 6.0.0)
+  - WorkflowUI (0.25.0):
+    - Workflow (= 0.25.0)
+
+DEPENDENCIES:
+  - BlueprintLists (from `https://github.com/kyleve/Listable.git`)
+  - BlueprintUI (from `https://github.com/square/Blueprint.git`)
+  - BlueprintUICommonControls (from `https://github.com/square/Blueprint.git`)
+  - Listable (from `https://github.com/kyleve/Listable.git`)
+  - Workflow
+  - WorkflowUI
+
+SPEC REPOS:
+  trunk:
+    - ReactiveSwift
+    - Workflow
+    - WorkflowUI
+
+EXTERNAL SOURCES:
+  BlueprintLists:
+    :git: https://github.com/kyleve/Listable.git
+  BlueprintUI:
+    :git: https://github.com/square/Blueprint.git
+  BlueprintUICommonControls:
+    :git: https://github.com/square/Blueprint.git
+  Listable:
+    :git: https://github.com/kyleve/Listable.git
+
+CHECKOUT OPTIONS:
+  BlueprintLists:
+    :commit: 2b96d8d8fb1fbb079d45ddd349d8da223918605f
+    :git: https://github.com/kyleve/Listable.git
+  BlueprintUI:
+    :commit: 8f0bda0f6e79abcdaedd78af870e99215c5c0074
+    :git: https://github.com/square/Blueprint.git
+  BlueprintUICommonControls:
+    :commit: 8f0bda0f6e79abcdaedd78af870e99215c5c0074
+    :git: https://github.com/square/Blueprint.git
+  Listable:
+    :commit: 2b96d8d8fb1fbb079d45ddd349d8da223918605f
+    :git: https://github.com/kyleve/Listable.git
+
+SPEC CHECKSUMS:
+  BlueprintLists: 545f9ffeb9e7f0e4dcf1824878756e480c9d69b6
+  BlueprintUI: c1edf5bf3e38e08e26742f6befb7df00710f7f3e
+  BlueprintUICommonControls: 43afff4f45499bdbdf371dc4cd5d0a7a8dfd728e
+  Listable: 75c416389a1bde57699eb61c881d6b18adbc4e13
+  ReactiveSwift: 24b7ed245617bbfd30ee0c87779b6c64ac1b4518
+  Workflow: 04ca404bd1dd1e76de9ade12c6d8d06d9ac076ef
+  WorkflowUI: ebe2d144cbf9bc7f269c1f9b4accba47e3e8057b
+
+PODFILE CHECKSUM: b02db338fbc0d5a8ed3befce0ac1580bbb761a52
+
+COCOAPODS: 1.9.1

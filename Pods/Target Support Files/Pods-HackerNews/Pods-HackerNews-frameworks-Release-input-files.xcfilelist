@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-HackerNews/Pods-HackerNews-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BlueprintLists/BlueprintLists.framework
+${BUILT_PRODUCTS_DIR}/BlueprintUI/BlueprintUI.framework
+${BUILT_PRODUCTS_DIR}/BlueprintUICommonControls/BlueprintUICommonControls.framework
+${BUILT_PRODUCTS_DIR}/Listable/Listable.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/Workflow/Workflow.framework
+${BUILT_PRODUCTS_DIR}/WorkflowUI/WorkflowUI.framework

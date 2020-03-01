@@ -1,0 +1,1 @@
+{"by":"arkh","id":22891593,"parent":22890523,"text":"For E2E testing, a mocked Stripe with some state would be a boon. Because calling your test servers takes a lot of time (and some call results differ between test and prod mode). And using Wiremock is a bitch when creating on-the-fly random fixtures.","time":1587058071,"type":"comment"}

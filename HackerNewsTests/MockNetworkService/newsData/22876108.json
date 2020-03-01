@@ -1,0 +1,1 @@
+{"by":"vwpolo3","descendants":2,"id":22876108,"kids":[22876134,22883284],"score":26,"time":1586945292,"title":"Malicious URLs cause Git (v2.26.0) to present stored credentials to wrong server","type":"story","url":"https://github.com/git/git/security/advisories/GHSA-qm7j-c969-7j4q"}

@@ -1,0 +1,1 @@
+{"by":"rstupek","id":22891405,"parent":22890523,"text":"I found some difficulty with the documentation around submitting dictionary values since the &quot;curl&quot; documentation didn&#x27;t include any examples. Example being address which wasn&#x27;t obvious needed to be sent as address[city]=value instead of address.city=value","time":1587056875,"type":"comment"}

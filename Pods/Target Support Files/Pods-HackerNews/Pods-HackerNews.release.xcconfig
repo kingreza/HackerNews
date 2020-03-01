@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintLists" "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintUI" "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintUICommonControls" "${PODS_CONFIGURATION_BUILD_DIR}/Listable" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveSwift" "${PODS_CONFIGURATION_BUILD_DIR}/Workflow" "${PODS_CONFIGURATION_BUILD_DIR}/WorkflowUI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintLists/BlueprintLists.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintUI/BlueprintUI.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BlueprintUICommonControls/BlueprintUICommonControls.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Listable/Listable.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveSwift/ReactiveSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Workflow/Workflow.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/WorkflowUI/WorkflowUI.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "BlueprintLists" -framework "BlueprintUI" -framework "BlueprintUICommonControls" -framework "Listable" -framework "ReactiveSwift" -framework "Workflow" -framework "WorkflowUI"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
