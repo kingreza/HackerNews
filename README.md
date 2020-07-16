@@ -5,7 +5,7 @@
 
 ![Swift](https://github.com/kingreza/HackerNews/workflows/Swift/badge.svg)
 
-**Hacker News in Workflow** is a Hacker News client app that uses Square's [Workflow](https://github.com/square/workflow) to drive its business logic and behind the scenes architecture and Square's [Blueprint](https://github.com/square/Blueprint) and [Listable](https://github.com/kyleve/Listable) for composable and declarative UI components.
+**Hacker News in Workflow** is a Hacker News client app that uses Square's [Workflow](https://github.com/square/workflow) to drive its business logic and Square's [Blueprint](https://github.com/square/Blueprint) and [Listable](https://github.com/kyleve/Listable) for composable and declarative UI components.
 
 
 ![Demo](news.gif)
@@ -13,7 +13,7 @@
 
 # Up and running
 
-Setting up and running the app should be fairly straight forward. The [Hacker News API](https://github.com/HackerNews/API) is read only and public so there is no need to setup token keys etc. 
+Setting up and running the app should be fairly straight forward. The [Hacker News API](https://github.com/HackerNews/API) is read only and public so there is no need to setup authentication etc. 
  1. Clone the repository, 
  2. `pod install`
  3. Build and run 
